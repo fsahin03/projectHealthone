@@ -1,0 +1,119 @@
+body {
+    /*background-image: url("../img/gym2.jpg");*/
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    color: rgb(231, 10, 72);
+    text-align: center;
+}
+/* background-image{
+    filter: blur(8px);
+} */
+html{ 
+    height: 100%;
+}
+
+.container {
+    background-color: red ;
+}
+.list-unstyled {
+    color: black;
+}
+
+.pull-right img-thumbnail {
+    margin-top: -10px;
+    margin-bottom: 10px
+}
+
+.header-row {
+    margin-top: 20px
+}
+
+.banner-img {
+    margin-bottom: 20px
+}
+
+.navbar {
+    margin-bottom: 0;
+    background-color: rgba(251, 251, 253, 0.65);
+}
+
+.product-img {
+    width: 70%;
+}
+.carousel-caption {
+    display: flex;
+    justify-content: center;
+}
+.h5{
+    color: black;
+}
+.carousel-caption>p, h5{
+    color:black;
+}
+.carousel-img {
+    filter: blur(5px);
+}
+.container-fluid {
+    height: 94%;
+}
+.footer{
+    color: royalblue;
+}
+.cards{
+    height: 30%;
+    width: 30%;
+}
+.card-img-top{
+    margin-left: 20%;
+    height: 40%;
+    width: 50%;
+}
+.card-img-top2{
+    margin-left: 35%;
+    height: 30%;
+    width: 30%;
+}
+button {
+    background-color: lightgreen;
+    width: 100%;
+     color: black;
+     padding: 15px;
+     margin: 10px 0px;
+     border: none;
+     cursor: pointer;
+      }
+
+input[type=text], input[type=password] {
+     width: 50%;
+     padding: 12px 20px;
+     display: inline-block;
+     border: 2px solid red;
+     box-sizing: border-box;
+ }
+button:hover {
+     opacity: 0.7;
+ }
+.cancelbtn {
+     width: auto;
+     padding: 10px 18px;
+     margin: 10px 5px;
+ }
+
+
+.container {
+     padding: 25px;
+     background-color: lightblue;
+ }
+.form1 {
+display: grid;
+}
+.form2{
+    display:grid;
+}
+.box {
+    background-color: white;
+    width: 500px;
+    height: 500px;
+    border: 15px solid rgb(231, 10, 72);
+}
