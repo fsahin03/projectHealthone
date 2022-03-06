@@ -4,6 +4,7 @@ require '../Modules/Products.php';
 require '../Modules/Database.php';
 require '../Modules/review.php';
 require '../Modules/checklogin.php';
+require '../Modules/users.php';
 
 define("DOC_ROOT", realpath(dirname(__DIR__)));
 define("TEMPLATE_ROOT", realpath(DOC_ROOT . "/Templates"));
@@ -14,6 +15,9 @@ $title = "HealthOne";
 $titleSuffix = "";
 session_start();
 var_dump($_SESSION);
+//var_dump($_SESSION['username']
+
+
 
 
 switch ($params[1]) {
@@ -95,7 +99,10 @@ switch ($params[1]) {
         session_destroy();
         header("Location: /");
         break;
-
+        case 'profiel':
+            // $getuser = getUser($userId);
+            include_once "../Templates/member/changeprofile.php";
+            break;
     case 'admin':
         include_once './admin.php';
         break;

@@ -1,7 +1,7 @@
 <?php
 class User
 {
-    public $id;
+    public $userId;
     public $username;
     public $name;
     public $email;
@@ -13,3 +13,4 @@ class User
         settype($this->id, 'integer');
     }
 }
+?>

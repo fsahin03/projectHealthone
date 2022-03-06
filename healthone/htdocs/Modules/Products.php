@@ -39,7 +39,7 @@ function editProduct(int $id) : void
 {
     global $pdo;
     $sth = $pdo->prepare("UPDATE product SET name='productName', picture='$_FILES', description='description' WHERE id = ?");
-
+   
 }
 
 function fileupload() :bool
@@ -67,3 +67,6 @@ function fileupload() :bool
         }
 
 }
+// $productName = filter_input(INPUT_POST,"productNamem",FILTER_SANITIZE_STRING);
+// $description = filter_input(INPUT_POST,"description",FILTER_SANITIZE_STRING);
+// $query->prepare("INSERT INTO product ");

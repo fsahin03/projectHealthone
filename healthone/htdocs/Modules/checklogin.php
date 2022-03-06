@@ -7,6 +7,5 @@ function checklogin(string $username, string $password) {
     $sth->setFetchMode(PDO::FETCH_CLASS,User::class);
     $sth->execute();
     return $sth->fetch();
-    
 }
 ?>

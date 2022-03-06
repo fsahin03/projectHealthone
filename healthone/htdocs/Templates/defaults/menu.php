@@ -28,6 +28,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="/logout"><b>uitloggen</b></a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/profiel"><b>profiel</b></a>
+                    </li>
                 <?php else : ?>
                     <li class="nav-item">
                         <a class="nav-link" href="/login">inloggen</a>
